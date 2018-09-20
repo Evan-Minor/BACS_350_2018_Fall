@@ -1,22 +1,24 @@
 <?php
 
-    // Setup a page title variable
-    $page_title = "PAGE TITLE";
+    // Start the page
+    $page_title = 'BACS 350 - My Book List';
+    require_once 'header.php';
 
-    // Include the page start
-    include 'header.php';
 
-    // Include the main page content
-    echo '<h1>BACS 350 - Project #8</h1><p>BODY</p>';
-
-    // Show the subscribers
+    // Show the list after the insert
     require 'select.php';
 
-    echo '<a href="insert.php">Add Record</a>';
 
-    require_once '../templates/test.php';
+//
+//    echo '<p>NOTE: You may need to refresh this page in order to get the current list from the database.</p>'
+//
+//
+//    // Display subscriber records
+//    echo '<h2>Insert</h2>
+//        <a href="insert.php">Add Subscriber Record</a>';
 
-    // Include the page end
-    include 'footer.php';
+
+    // End the page
+    require_once 'footer.php';
 
  ?>
