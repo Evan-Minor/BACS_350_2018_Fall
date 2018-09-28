@@ -1,4 +1,10 @@
+<?php include "header.php"; ?>
+    <h1>Project 7</h1>
+    <img src="Bear3.png">
 <?php
+
+//<a href="https://github.com/">GitHub</a>
+    /*Set variables for your database*/
 
     // Form the DB Connection string
     $port = '3306';
@@ -21,4 +27,6 @@
         die();
     }
 
+
 ?>
+<?php include "footer.php"; ?>

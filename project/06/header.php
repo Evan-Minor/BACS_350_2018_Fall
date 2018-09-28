@@ -1,25 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html></html>
     <head>
-
-        <meta charset="UTF-8">
+        <title>Web Page Template</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>
-            <?php
-                echo $page_title;
-            ?>
-
+        <?php $page_title="Project 6"; ?>
         </title>
-        <link rel="stylesheet" href="styles.css">
-
     </head>
+    <title>
+        <?php $page_title="Project 6"; ?>
+    </title>
     <body>
-
-        <header>
-            <h1>
-                <?php
-                    echo $page_title;
-                ?>
-            </h1>
-        </header>
         <main>
-            
